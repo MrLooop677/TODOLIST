@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="css/TODO LIST.css" />
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="add-task">
+        <input type="text" />
+        <span class="plus">+</span>
+      </div>
+      <div class="task-content">
+        <span class="no-tasks-message">No Tasks Show</span>
+      </div>
+    </div>
+    <div class="task-stats">
+      <div class="tasks-count">Tasks <span>0</span></div>
+      <button id="delete-all" class="delete-all">Delete All</button>
+      <button id="finished-all" class="finished-all">Finished All</button>
+      <div class="tasks-completed">completed <span>0</span></div>
+    </div>
+    <!--its aplugin js Sweet alert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="js/TODO LIST.js"></script>
+  </body>
+</html>
